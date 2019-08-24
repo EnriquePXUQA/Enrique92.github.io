@@ -61,8 +61,8 @@ body, html {
     overflow: hidden;
     height: 100%;
     position: relative;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 15%;
+    margin-bottom: 20%;
 }
  
 #carrusel .left-arrow {
