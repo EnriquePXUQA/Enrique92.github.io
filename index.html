@@ -6,63 +6,10 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
-body, html {
-  height: 100%;
-  line-height: 1.8;
-}
-/* Full height image header */
-.bgimg-1 {
-  background-position: center;
-  background-size: cover;
-  background-image: url("/Images/background-web-page.png");
-  min-height: 100%;
-}
-.w3-bar .w3-button {
-  padding: 16px;
-}
-.heading2 {
-  font-size: 22px;
-}
-.heading3 {
-  font-size: 16px;
-}
-.rounded {
- border-radius: 30px;
-}
-.letter {
-  font-size: 24px;
-}
-.letter2 {
-  font-size: 20px;
-}
-.descProjects {
-  text-align: justify;
-  text-justify: inter-word;
-}
-.aboutMe {
-  text-align: justify;
-  text-justify: inter-word;
-}
-.profileImg {
-  position: absolute;
-  right: 5%;
-  margin-top: 15%;
-  max-width: 22%;
-  max-height: 40%;
-  height: auto;
-  width: auto;
-  border: 6px solid white;
-  border-radius: 60%;
-}
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-</style>
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<script src="carraouselScript.js"></script> 
+</head>
 <body>
 
 <!-- Navbar (sit on top) -->
@@ -120,6 +67,54 @@ body, html {
 </div>
 
 <!-- Projects Section -->
+
+///////
+<div class="w3-container" style="padding:26px 16px" id="work">
+  <h3 class="w3-center"><b>PROJECTS</b></h3>
+	<div id="carrusel">
+		<a href="#" class="left-arrow"><img src="images/left-arrow.png" /></a>
+		<a href="#" class="right-arrow"><img src="images/right-arrow.png" /></a>
+		<div class="carrusel">
+////////////////////////////////////
+			<div class="projects" id="product_0">
+				<a href="https://github.com/Enrique92/FunWithBeer" title="Fun With Beer">
+				<img src="/Images/FunWithBeer.png" style="width:67%" class="w3-hover-opacity center">
+				</a>
+					<p class="descProjects"><b><u>Fun With Beer</u></b> - This is a app that provide to you information about the different types of beers of each country. You can view the beer from different forms, you can see by type of beer or you can see by continent.
+				</p>
+			</div>
+			<div class="projects" id="project1">
+				<a href="https://github.com/cornerstone18aug/silver-bullet" title="Silver Bullet">
+				 <img src="/Images/SilverBullet.png" style="width:97%" class="w3-hover-opacity">
+				</a>
+					<p class="descProjects"><b><u>Silver Bullet</u></b> - This game was the final project of Java for the Cornerstone International Community College of Canada, develop with JavaFX and dividing the tasks between four teammates with a extraordinary teamwork and doing very enjoyable and funny.
+				 </p>
+			</div>
+			<div class="projects" id="project2">
+				<a href="https://github.com/Enrique92/Enrique92.github.io" title="Enrique Alcaide Muñoz Web Page">
+				<img src="/Images/MyPersonalWeb.png" style="width:100%" class="w3-hover-opacity">
+				</a>
+					<p class="descProjects"><b><u>Personal Web Page</u></b> - This is my personal web page where you can see more about myself and my personal and team projects. Also you can see more about me and my developer skills.
+				 </p>
+			</div>
+			<div class="projects" id="project3">
+				<a href="https://manzana86.neocities.org/web_lga/localizacion_propio.html" title="Department of Applied Geography UAM">
+				<img src="/Images/LabGeoApl.png" style="width:100%" class="w3-hover-opacity">
+				</a>
+					<p class="descProjects"><b><u>Applied Geography Laboratory</u></b> - This was the main web page for the applied geography laboratory of University Autonoma of Madrid where you can see the main content and information about the area.
+				</p>
+			</div>
+			<div class="projects" id="project4">
+				<a href="https://github.com/cornerstone18aug/Tydier" title="Tydier">
+				<img src="/Images/TydierApp.png" style="width:100%" class="w3-hover-opacity">
+				</a>
+					<p class="descProjects"><b><u>Tydier</u></b> - This app is an Automatic Bookmark Categorizing iOS App using IBM Watson Natural Language Understanding API. Will help you to have all your bookmarks organized easily and fast.
+				</p>
+			</div>
+		</div>
+	</div>
+////////////////////////////////////
+<!--
 <div class="w3-container" style="padding:26px 16px" id="work">
   <h3 class="w3-center"><b>PROJECTS</b></h3>
   <div class="w3-row-padding" style="margin-top:64px">
@@ -154,6 +149,7 @@ Department of Applied Geography UAM">
     </div>
   </div>
 </div>
+-->
 
 <!-- Modal for full size images on click-->
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">

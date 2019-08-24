@@ -1,0 +1,106 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/Images/background-web-page.png");
+  min-height: 100%;
+}
+.w3-bar .w3-button {
+  padding: 16px;
+}
+.heading2 {
+  font-size: 22px;
+}
+.heading3 {
+  font-size: 16px;
+}
+.rounded {
+ border-radius: 30px;
+}
+.letter {
+  font-size: 24px;
+}
+.letter2 {
+  font-size: 20px;
+}
+.descProjects {
+  text-align: justify;
+  text-justify: inter-word;
+}
+.aboutMe {
+  text-align: justify;
+  text-justify: inter-word;
+}
+.profileImg {
+  position: absolute;
+  right: 5%;
+  margin-top: 15%;
+  max-width: 22%;
+  max-height: 40%;
+  height: auto;
+  width: auto;
+  border: 6px solid white;
+  border-radius: 60%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+// Carrousel of projects
+#carrusel {
+    float:left;
+    width:600px;
+    overflow:hidden;
+    height:203px;
+    position:relative;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+ 
+#carrusel .left-arrow {
+    position:absolute;
+    left:10px;
+    z-index:1;
+    top:50%;
+    margin-top:-9px;
+}
+ 
+#carrusel .right-arrow {
+    position:absolute;
+    right:10px;
+    z-index:1;
+    top:50%;
+    margin-top:-9px;
+}
+ 
+.carrusel {
+    width:4000px;
+    left:0px;
+    position:absolute;
+    z-index:0;
+}
+ 
+.carrusel>div {
+    float: left;
+    height: 203px;
+    margin-right: 5px;
+    width: 195px;
+    text-align:center;
+}
+ 
+.carrusel img {
+    cursor:pointer;
+}
+ 
+.projects {
+    border:#CCCCCC 1px solid;
+	border-radius: 20%;
+}
