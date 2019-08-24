@@ -57,9 +57,9 @@ body, html {
 // Carrousel of projects
 #carrusel {
     float: left;
-    width: auto;
+    width: 80%;
     overflow: hidden;
-    height: 203px;
+    height: 30%;
     position: relative;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -101,5 +101,5 @@ body, html {
 }
  
 .projects {
-    border: #CCCCCC 1px solid;
+    border: #CCCCCC 2px solid;
 }
