@@ -5,228 +5,226 @@
 <meta content="width=device-width, initial-scale=1" name="viewport">
 <link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-      rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <meta content="width=device-width, initial-scale=1" name="viewport">
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" rel="stylesheet">
 <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>-->
 <script src="scripts.js"></script>
+
 <head>
   <link href="styles.css" rel="stylesheet">
 </head>
+
 <body>
 
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-card" id="myNavbar">
-    <a class="w3-bar-item w3-button w3-wide" href="#home">EAM</a>
-    <!-- Right-sided navbar links -->
-    <div class="w3-right w3-hide-small">
-      <a class="w3-bar-item w3-button" href="#about">ABOUT</a>
-      <a class="w3-bar-item w3-button" href="#work"></i>PROJECTS</a>
-      <a class="w3-bar-item w3-button" href="#skills"></i>SKILLS</a>
-      <a class="w3-bar-item w3-button" href="#contact"></i>CONTACT</a>
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-card" id="myNavbar">
+      <a class="w3-bar-item w3-button w3-wide" href="#home">EAM</a>
+      <!-- Right-sided navbar links -->
+      <div class="w3-right w3-hide-small">
+        <a class="w3-bar-item w3-button" href="#about">ABOUT</a>
+        <a class="w3-bar-item w3-button" href="#work"></i>PROJECTS</a>
+        <a class="w3-bar-item w3-button" href="#skills"></i>SKILLS</a>
+        <a class="w3-bar-item w3-button" href="#contact"></i>CONTACT</a>
+      </div>
+      <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+      <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" href="javascript:void(0)"
+        onclick="w3_open()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
-    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-
-    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" href="javascript:void(0)"
-       onclick="w3_open()">
-      <i class="fa fa-bars"></i>
-    </a>
   </div>
-</div>
 
-<!-- Sidebar on small screens when clicking the menu icon -->
-<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large"
-     id="mySidebar" style="display:none">
-  <a class="w3-bar-item w3-button w3-large w3-padding-16" href="javascript:void(0)"
-     onclick="w3_close()">Close ×</a>
-  <a class="w3-bar-item w3-button" href="#about" onclick="w3_close()"><b>ABOUT</b></a>
-  <a class="w3-bar-item w3-button" href="#work" onclick="w3_close()"><b>PROJECTS</b></a>
-  <a class="w3-bar-item w3-button" href="#skills" onclick="w3_close()"><b>SKILLS</b></a>
-  <a class="w3-bar-item w3-button" href="#contact" onclick="w3_close()"><b>CONTACT</b></a>
-</nav>
+  <!-- Sidebar on small screens when clicking the menu icon -->
+  <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" id="mySidebar"
+    style="display:none">
+    <a class="w3-bar-item w3-button w3-large w3-padding-16" href="javascript:void(0)" onclick="w3_close()">Close ×</a>
+    <a class="w3-bar-item w3-button" href="#about" onclick="w3_close()"><b>ABOUT</b></a>
+    <a class="w3-bar-item w3-button" href="#work" onclick="w3_close()"><b>PROJECTS</b></a>
+    <a class="w3-bar-item w3-button" href="#skills" onclick="w3_close()"><b>SKILLS</b></a>
+    <a class="w3-bar-item w3-button" href="#contact" onclick="w3_close()"><b>CONTACT</b></a>
+  </nav>
 
-<!-- Header with full-height image -->
-<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
-  <div class="w3-display-left w3-text-white" style="padding:48px">
-    <span class="w3-jumbo w3-hide-small"><b>Enrique Alcaide Muñoz</b></span><br>
-    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Enrique Alcaide Muñoz</span><br>
-    <span class="w3-large heading2 letter">QA Specialist</span><br>
-    <span
-        class="w3-large heading3 letter2"><i>"Sociable, hardworker and positive atittude"</i></span>
-  </div>
-  <div class="w3-display-bottomleft w3-text-white w3-xlarge" style="padding:24px 48px">
-    <a href="" title="Facebook"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
-    <a href="https://www.instagram.com/kike_alc92/?hl=en" title="Instagram"><i
-        class="fa fa-instagram w3-hover-opacity"></i></a>
-    <a href="https://es.linkedin.com/in/enrique-alcaide-muñoz-93a2a978" title="Linkedin"><i
-        class="fa fa-linkedin w3-hover-opacity"></i></a>
-    <a href="https://github.com/Enrique92" title="GitHub"><i
-        class="fa fa-github w3-hover-opacity"></i></a>
-  </div>
-  <img class="profileImg" src="/Images/Profile.jpg">
-</header>
+  <!-- Header with full-height image -->
+  <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+    <div class="w3-display-left w3-text-white" style="padding:48px">
+      <span class="w3-jumbo w3-hide-small"><b>Enrique Alcaide Muñoz</b></span><br>
+      <span class="w3-xxlarge w3-hide-large w3-hide-medium">Enrique Alcaide Muñoz</span><br>
+      <span class="w3-large heading2 letter">QA Specialist</span><br>
+      <span class="w3-large heading3 letter2"><i>"Sociable, hardworker and positive atittude"</i></span>
+    </div>
+    <div class="w3-display-bottomleft w3-text-white w3-xlarge" style="padding:24px 48px">
+      <a href="" title="Facebook"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+      <a href="https://www.instagram.com/kike_alc92/?hl=en" title="Instagram"><i
+          class="fa fa-instagram w3-hover-opacity"></i></a>
+      <a href="https://es.linkedin.com/in/enrique-alcaide-muñoz-93a2a978" title="Linkedin"><i
+          class="fa fa-linkedin w3-hover-opacity"></i></a>
+      <a href="https://github.com/Enrique92" title="GitHub"><i class="fa fa-github w3-hover-opacity"></i></a>
+    </div>
+    <img class="profileImg" src="/Images/Profile.jpg">
+  </header>
 
-<!-- About Section -->
-<div class="w3-container" id="about" style="padding:26px 16px">
-  <h3 class="w3-center"><b>ABOUT ME</b></h3>
-  <div class="w3-row-padding w3-center letter aboutMe" style="margin-top:8px;">
-    <p>My name is Enrique Alcaide Munoz I'm a QA Specialist. I believe that many oppotunities
-      are once in a lifetime, so I try to take the advantage of every opportunity I encourage to
-      learn as much as possible. I'm a hard work QA who is passionate about testing and automated testing, and am
-      always eager to learn. I hope to get the opportunity to connect in the future.
-    </p>
-  </div>
-</div>
-
-<div class="w3-container" id="work" style="padding:26px 16px">
-  <h3 class="w3-center"><b>PROJECTS</b></h3>
-  <div class="w3-row-padding" style="margin-top:64px">
-    <div class="w3-col l3 m6">
-      <center><img alt="Fun With Beer" class="card-img-top" src="/Images/FunWithBeer.png"
-                   style="width:67%"></center>
-      <center><h4 class="card-title font-weight-bold">Fun With Beer</h4></center>
-      <p class="card-text">This is a app that provide to you information about the different types
-        of beers of each country. You can view the beer from different forms, you can see by type of
-        beer or you can see by continent.
+  <!-- About Section -->
+  <div class="w3-container" id="about" style="padding:26px 16px">
+    <h3 class="w3-center"><b>ABOUT ME</b></h3>
+    <div class="w3-row-padding w3-center letter aboutMe" style="margin-top:8px;">
+      <p>My name is Enrique Alcaide Munoz I'm a QA Specialist. I believe that many oppotunities
+        are once in a lifetime, so I try to take the advantage of every opportunity I encourage to
+        learn as much as possible. I'm a hard work QA who is passionate about testing and automated testing, and am
+        always eager to learn. I hope to get the opportunity to connect in the future.
       </p>
-      <center><a class="btn btn-primary btn-md btn-rounded"
-                 href="https://github.com/Enrique92/FunWithBeer">Details</a></center>
     </div>
-    <div class="w3-col l3 m6">
-      <img alt="Silver Bullet" class="card-img-top" src="/Images/SilverBullet.png"
-           style="width:97%">
-      <center><h4 class="card-title font-weight-bold">Silver Bullet</h4></center>
-      <p class="card-text">This game was the final project of Java for the Cornerstone International
-        Community College of Canada, develop with JavaFX and dividing the tasks between four
-        teammates with a extraordinary teamwork and doing very enjoyable and funny.
+  </div>
+
+  <div class="w3-container" id="work" style="padding:26px 16px">
+    <h3 class="w3-center"><b>PROJECTS</b></h3>
+    <div class="w3-row-padding" style="margin-top:64px">
+      <div class="w3-col l3 m6">
+        <center><img alt="Fun With Beer" class="card-img-top" src="/Images/FunWithBeer.png" style="width:67%"></center>
+        <center>
+          <h4 class="card-title font-weight-bold">Fun With Beer</h4>
+        </center>
+        <p class="card-text">This is a app that provide to you information about the different types
+          of beers of each country. You can view the beer from different forms, you can see by type of
+          beer or you can see by continent.
+        </p>
+        <center><a class="btn btn-primary btn-md btn-rounded"
+            href="https://github.com/Enrique92/FunWithBeer">Details</a></center>
+      </div>
+      <div class="w3-col l3 m6">
+        <img alt="Silver Bullet" class="card-img-top" src="/Images/SilverBullet.png" style="width:97%">
+        <center>
+          <h4 class="card-title font-weight-bold">Silver Bullet</h4>
+        </center>
+        <p class="card-text">This game was the final project of Java for the Cornerstone International
+          Community College of Canada, develop with JavaFX and dividing the tasks between four
+          teammates with a extraordinary teamwork and doing very enjoyable and funny.
+        </p>
+        <center><a class="btn btn-primary btn-md btn-rounded"
+            href="https://github.com/cornerstone18aug/silver-bullet">Details</a></center>
+      </div>
+      <div class="w3-col l3 m6">
+        <center><img alt="Tydier" class="card-img-top" src="/Images/TydierApp.png" style="width:70%">
+        </center>
+        <center>
+          <h4 class="card-title font-weight-bold">Tydier</h4>
+        </center>
+        <p class="card-text">This app is an Automatic Bookmark Categorizing iOS App using IBM Watson
+          Natural Language Understanding API. Will help you to have all your bookmarks organized
+          easily and fast.
+        </p>
+        <center><a class="btn btn-primary btn-md btn-rounded"
+            href="https://apps.apple.com/us/app/tydier/id1476891210?ls=1">Details</a></center>
+      </div>
+      <div class="w3-col l3 m6">
+        <img alt="My Web Page" class="card-img-top" src="/Images/MyPersonalWeb.png" style="width:100%">
+        <center>
+          <h4 class="card-title font-weight-bold">My Web Page</h4>
+        </center>
+        <p class="card-text">This is my personal web page where you can see more about myself and my
+          personal and team projects. Also you can see more about me and my developer skills.
+        </p>
+        <center><a class="btn btn-primary btn-md btn-rounded" href="https://enrique92.github.io/">Details</a>
+        </center>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div class="w3-modal w3-black" id="modal01" onclick="this.style.display='none'">
+    <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img class="w3-image" id="img01">
+      <p class="w3-opacity w3-large" id="caption"></p>
+    </div>
+  </div>
+
+  <!-- Skills Section -->
+  <div class="w3-container w3-light-grey" id="skills" style="padding:26px 16px">
+    <h3 class="w3-center"><b>SKILLS</b></h3>
+    <div class="w3-col m6">
+      <p><b><i><u>Languages:</u></i></b></p>
+      <p class="w3-wide"><i class="fa"></i> - JavaScript</p>
+      <p class="w3-wide"><i class="fa"></i> - Cypress</p>
+      <p class="w3-wide"><i class="fa"></i> - HTML</p>
+      <p class="w3-wide"><i class="fa"></i> - CSS</p>
+      <p class="w3-wide"><i class="fa"></i> - Playwright</p>
+      <p class="w3-wide"><i class="fa"></i> - LN4</p>
+      <p><b><i><u>IDE's:</u></i></b></p>
+      <p class="w3-wide"><i class="fa"></i> - VS Code</p>
+      <p class="w3-wide"><i class="fa"></i> - TestRail</p>
+      <p class="w3-wide"><i class="fa"></i> - Checkly</p>
+      <p class="w3-wide"><i class="fa"></i> - Mac OS</p>
+    </div>
+    <div class="w3-col m6">
+      <p><b><i><u>Web Frameworks:</u></i></b></p>
+      <p class="w3-wide"><i class="fa"></i> - E-Commerce</p>
+      <p><b><i><u>Databases:</u></i></b></p>
+      <p class="w3-wide"><i class="fa"></i> - Oracle</p>
+      <p class="w3-wide"><i class="fa"></i> - MySQL</p>
+      <p class="w3-wide"><i class="fa"></i> - JIRA</p>
+      <p class="w3-wide"><i class="fa"></i> - Trello</p>
+      <p><b><i><u>Version Control:</u></i></b></p>
+      <p class="w3-wide"><i class="fa"></i> - GitHub</p>
+      <p class="w3-wide"><i class="fa"></i> - Jenkins</p>
+      <p><b><i><u>Other:</u></i></b></p>
+      <p class="w3-wide"><i class="fa"></i> - Ubuntu</p>
+      <p class="w3-wide"><i class="fa"></i> - Windows</p>
+      <p class="w3-wide"><i class="fa"></i> - Shopify</p>
+    </div>
+  </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-light-grey" id="contact" style="padding:26px 16px">
+    <h3 class="w3-center"><b>CONTACT</b></h3>
+    <div style="margin-top:48px">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>Vancouver, BC, Canada.</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i>+1 (778) 689 5106</p>
+      <p><a href="mailto:enrique.alcaide.canadian@gmail.com?Subject=Contact" target="_top"><i
+            class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i>enrique.alcaide.canadian@gmail.com</a>
       </p>
-      <center><a class="btn btn-primary btn-md btn-rounded"
-                 href="https://github.com/cornerstone18aug/silver-bullet">Details</a></center>
-    </div>
-    <div class="w3-col l3 m6">
-      <center><img alt="Tydier" class="card-img-top" src="/Images/TydierApp.png" style="width:70%">
-      </center>
-      <center><h4 class="card-title font-weight-bold">Tydier</h4></center>
-      <p class="card-text">This app is an Automatic Bookmark Categorizing iOS App using IBM Watson
-        Natural Language Understanding API. Will help you to have all your bookmarks organized
-        easily and fast.
-      </p>
-      <center><a class="btn btn-primary btn-md btn-rounded"
-                 href="https://apps.apple.com/us/app/tydier/id1476891210?ls=1">Details</a></center>
-    </div>
-    <div class="w3-col l3 m6">
-      <img alt="My Web Page" class="card-img-top" src="/Images/MyPersonalWeb.png"
-           style="width:100%">
-      <center><h4 class="card-title font-weight-bold">My Web Page</h4></center>
-      <p class="card-text">This is my personal web page where you can see more about myself and my
-        personal and team projects. Also you can see more about me and my developer skills.
-      </p>
-      <center><a class="btn btn-primary btn-md btn-rounded" href="https://enrique92.github.io/">Details</a>
-      </center>
+      <br>
     </div>
   </div>
-</div>
 
-<!-- Modal for full size images on click-->
-<div class="w3-modal w3-black" id="modal01" onclick="this.style.display='none'">
-  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright"
-        title="Close Modal Image">×</span>
-  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-    <img class="w3-image" id="img01">
-    <p class="w3-opacity w3-large" id="caption"></p>
-  </div>
-</div>
+  <!-- Footer -->
+  <footer class="w3-center w3-black w3-padding-64">
+    <a class="w3-button w3-light-grey rounded" href="#home"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <div class="w3-xlarge w3-section">
+      <a href="https://es.linkedin.com/in/enrique-alcaide-muñoz-93a2a978" title="Linkedin"><i
+          class="fa fa-linkedin w3-hover-opacity"></i></a>
+      <a href="https://github.com/Enrique92" title="GitHub"><i class="fa fa-github w3-hover-opacity"></i></a>
+    </div>
+    <p>Created by <a class="w3-hover-text-green" href="" target="_blank" title="Enrique Alcaide Muñoz">Enrique Alcaide
+        Muñoz</a></p>
+  </footer>
 
-<!-- Skills Section -->
-<div class="w3-container w3-light-grey" id="skills" style="padding:26px 16px">
-  <h3 class="w3-center"><b>SKILLS</b></h3>
-  <div class="w3-col m6">
-    <p><b><i><u>Languages:</u></i></b></p>
-    <p class="w3-wide"><i class="fa"></i> - JavaScript</p>
-    <p class="w3-wide"><i class="fa"></i> - Cypress</p>
-    <p class="w3-wide"><i class="fa"></i> - HTML</p>
-    <p class="w3-wide"><i class="fa"></i> - CSS</p>
-    <p class="w3-wide"><i class="fa"></i> - Playwright</p>
-    <p class="w3-wide"><i class="fa"></i> - LN4</p>
-    <p><b><i><u>IDE's:</u></i></b></p>
-    <p class="w3-wide"><i class="fa"></i> - VS Code</p>
-    <p class="w3-wide"><i class="fa"></i> - TestRail</p>
-    <p class="w3-wide"><i class="fa"></i> - Checkly</p>
-    <p class="w3-wide"><i class="fa"></i> - Mac OS</p>
-  </div>
-  <div class="w3-col m6">
-    <p><b><i><u>Web Frameworks:</u></i></b></p>
-    <p class="w3-wide"><i class="fa"></i> - E-Commerce</p>
-    <p><b><i><u>Databases:</u></i></b></p>
-    <p class="w3-wide"><i class="fa"></i> - Oracle</p>
-    <p class="w3-wide"><i class="fa"></i> - MySQL</p>
-    <p class="w3-wide"><i class="fa"></i> - JIRA</p>
-    <p class="w3-wide"><i class="fa"></i> - Trello</p>
-    <p><b><i><u>Version Control:</u></i></b></p>
-    <p class="w3-wide"><i class="fa"></i> - GitHub</p>
-    <p class="w3-wide"><i class="fa"></i> - Jenkins</p>
-    <p><b><i><u>Other:</u></i></b></p>
-    <p class="w3-wide"><i class="fa"></i> - Ubuntu</p>
-    <p class="w3-wide"><i class="fa"></i> - Windows</p>
-    <p class="w3-wide"><i class="fa"></i> - Shopify</p>
-  </div>
-</div>
-</div>
-
-<!-- Contact Section -->
-<div class="w3-container w3-light-grey" id="contact" style="padding:26px 16px">
-  <h3 class="w3-center"><b>CONTACT</b></h3>
-  <div style="margin-top:48px">
-    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>Vancouver, BC, Canada.</p>
-    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i>+1 (778) 689 5106</p>
-    <p><a href="mailto:enrique.alcaide.canadian@gmail.com?Subject=Contact" target="_top"><i
-        class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i>enrique.alcaide.canadian@gmail.com</a>
-    </p>
-    <br>
-  </div>
-</div>
-
-<!-- Footer -->
-<footer class="w3-center w3-black w3-padding-64">
-  <a class="w3-button w3-light-grey rounded" href="#home"><i
-      class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <div class="w3-xlarge w3-section">
-    <a href="" title="Facebook"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
-    <a href="https://www.instagram.com/kike_alc92/?hl=en" title="Instagram"><i
-        class="fa fa-instagram w3-hover-opacity"></i></a>
-    <a href="https://es.linkedin.com/in/enrique-alcaide-muñoz-93a2a978" title="Linkedin"><i
-        class="fa fa-linkedin w3-hover-opacity"></i></a>
-    <a href="https://github.com/Enrique92" title="GitHub"><i
-        class="fa fa-github w3-hover-opacity"></i></a>
-  </div>
-  <p>Created by <a class="w3-hover-text-green" href="" target="_blank"
-                   title="Enrique Alcaide Muñoz">Enrique Alcaide Muñoz</a></p>
-</footer>
-
-<script>
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
-// Toggle between showing and hiding the sidebar when clicking the menu icon
-var mySidebar = document.getElementById("mySidebar");
-function w3_open() {
-  if (mySidebar.style.display === 'block') {
-    mySidebar.style.display = 'none';
-  } else {
-    mySidebar.style.display = 'block';
-  }
-}
-// Close the sidebar with the close button
-function w3_close() {
-    mySidebar.style.display = "none";
-}
-</script>
+  <script>
+    // Modal Image Gallery
+    function onClick(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+      var captionText = document.getElementById("caption");
+      captionText.innerHTML = element.alt;
+    }
+    // Toggle between showing and hiding the sidebar when clicking the menu icon
+    var mySidebar = document.getElementById("mySidebar");
+    function w3_open() {
+      if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+      } else {
+        mySidebar.style.display = 'block';
+      }
+    }
+    // Close the sidebar with the close button
+    function w3_close() {
+      mySidebar.style.display = "none";
+    }
+  </script>
 </body>
+
 </html>
